@@ -7,7 +7,7 @@ export const GOOGLE_CLIENT_SECRET = env.VITE_GOOGLE_CLIENT_SECRET
 export const BASE_URL = env.VITE_BASE_URL
 
 export const siteConfig: SiteConfig = {
-    name: "Project name",
-    title: "A Short title",
-    description: "A short description",
+    name: "EasyHire",
+    title: "EasyHire - Local and Part-time Job Searching Platform",
+    description: "EasyHire - Local and Part-time Job Searching Platform",
 }

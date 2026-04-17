@@ -92,7 +92,7 @@ const SignInButton = ({
                         provider: provider,
                         callbackURL: callbackURL,
                     },{
-                        onRequest: (ctx) => {
+                        onRequest: () => {
                             setLoading(true)
                         }
                     }

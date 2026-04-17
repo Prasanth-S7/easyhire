@@ -13,7 +13,6 @@ import {
   AvatarImage,
 } from "@/components/ui/avatar"
 import { useNavigate } from "react-router-dom";
-import { getCookie } from "@/lib/session";
 import { signOut } from "@/lib/auth-client";
 import { toast } from "sonner"
 
